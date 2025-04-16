@@ -1,7 +1,7 @@
 # install.packages("Deriv")
 library(Deriv)
 
-#========== 변수가 1개 일때
+#=========== 변수가 1개 일때
 
 f <- function(x) x^2-10*x+26
 curve(f,1,9,lwd=2)
